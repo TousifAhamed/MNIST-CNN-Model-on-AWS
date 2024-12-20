@@ -59,7 +59,7 @@ This repository contains a series of experiments on the MNIST dataset aimed at a
 
 ---
 
-### **Version 4: Step LR **
+### Version 4: Step LR 
 #### Target : StepLR to decrase the learning rate
 - Added step LR with step size 7 and gamma 0.1
 
