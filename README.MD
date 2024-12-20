@@ -93,7 +93,7 @@ This repository contains a series of experiments on the MNIST dataset aimed at a
 - Finally objective achieved with test accuracy of 99.44% with parameter less than 8K.
 
 #### Logs
-![](Images/Final_Results.png)
+![Sage Maker Logs](/Sage_Maker_Logs.png)
 ---
 
 ## Repository Structure
