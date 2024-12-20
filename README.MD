@@ -98,10 +98,10 @@ This repository contains a series of experiments on the MNIST dataset aimed at a
 
 ## Repository Structure
 - **Version 1**: Basic skeleton implementation.
-- **Version 2**: Lighter model with GAP layer.
-- **Version 3**: Model with Batch Normalization.
+- **Version 2**: GAP layer.
+- **Version 3**: Batch Normalization.
 - **Version 4**: Learning Rate Scheduler implementation.
-- **Version 5**: Final model with Image Augmentation and StepLR Scheduler.
+- **Version 5**: Image Augmentation and StepLR Scheduler.
 
 ---
 
@@ -111,13 +111,17 @@ The experiments were conducted on the MNIST dataset, which consists of grayscale
 ---
 
 ## Conclusion
-This project demonstrates how iterative improvements, including parameter reduction, Batch Normalization, Learning Rate Schedulers, and Image Augmentation, can help achieve high accuracy while meeting specific constraints like parameter count. The final model successfully met the target with **99.44% test accuracy** in 15 epochs using a CNN network with less than **8000 parameters**.
+This project showcases the effectiveness of iterative enhancements such as parameter optimization, Batch Normalization, Learning Rate Scheduling, and Image Augmentation in achieving high accuracy within set constraints. The final CNN model attained the target of **99.44% test accuracy** in 15 epochs with fewer than **8000 parameters**.
 
 ---
 
 ## Future Work
-- Explore further optimizations to reduce training time.  
-- Extend experiments to other datasets like FashionMNIST or CIFAR-10.  
-- Investigate deployment of the model on edge devices.
+- Further optimize the model architecture and training procedures to reduce overall training time.
+- Extend the scope of experiments to additional datasets such as FashionMNIST and CIFAR-10 to demonstrate the model's versatility.
+- Explore the deployment of the trained model on edge devices, evaluating its performance and resource efficiency in real-world environments.
+- Implement advanced regularization techniques to enhance model generalizability and prevent overfitting.
+- Investigate automated hyperparameter tuning methods to systematically refine model performance.
+- Conduct a detailed analysis of various performance metrics to identify potential areas for further improvement.
+- Integrate model compression techniques to further reduce the number of parameters while maintaining high accuracy.
 
 ---
