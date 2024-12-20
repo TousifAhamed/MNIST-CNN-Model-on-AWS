@@ -23,6 +23,7 @@ This repository contains a series of experiments on the MNIST dataset aimed at a
 - Model is having less parameters less than 8000 parameters.
 - Model is overfitting.
 
+[**S7Exp_1.ipynb**](./S7Exp_1.ipynb)
 ---
 
 ### **Version 2**
@@ -40,6 +41,7 @@ This repository contains a series of experiments on the MNIST dataset aimed at a
 - Overfitting is reduced now.
 - Network capacity is reduced and it is expected that reduction in model accuracies.
 
+[**S7Exp_2.ipynb**](./S7Exp_2.ipynb)
 ---
 
 ### **Version 3: Batch Normalization**
@@ -57,6 +59,7 @@ This repository contains a series of experiments on the MNIST dataset aimed at a
 - Slight overfitting was observed.  
 - Further updates with Step LR Schedulers in the next version.
 
+[**S7Exp_3.ipynb**](./S7Exp_3.ipynb)
 ---
 
 ### Version 4: Step LR 
@@ -74,6 +77,7 @@ This repository contains a series of experiments on the MNIST dataset aimed at a
 - It is observed that the model is overfitting and there is room for improvement in next version.
 - Update model with image augmentation and also updaring step LR params
 
+[**S7Exp_4.ipynb**](./S7Exp_4.ipynb)
 ---
 
 ### **Version 5: Image Augmentation and StepLR Scheduler**
@@ -91,6 +95,9 @@ This repository contains a series of experiments on the MNIST dataset aimed at a
 - Image Augmentation with random rotation of -10 to 10 degrees helped to overcome overfitting issues.
 - Step LR with Learning Rate of 0.1 and Step Size of 9 and Gamma of 0.18 helped to achieve consistency with model results.  
 - Finally objective achieved with test accuracy of 99.44% with parameter less than 8K.
+
+[**S7Exp_5.ipynb**](./S7Exp_5.ipynb)
+---
 
 #### Logs
 ![Sage Maker Logs](/Sage_Maker_Logs.png)
